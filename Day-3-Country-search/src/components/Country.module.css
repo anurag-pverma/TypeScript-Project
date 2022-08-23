@@ -1,0 +1,68 @@
+.container 		{ 
+    font-family:'Roboto';
+    width:600px; 
+    margin:30px auto 0; 
+    display:block; 
+    background:#FFF;
+    padding:10px 50px 50px;
+  }
+  .group{ 
+    position:relative; 
+    margin: auto;
+    margin-bottom:45px; 
+    
+  }
+  input{
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    display:block;
+    width:250px;
+    border:none;
+    border-bottom:1px solid #757575;
+  }
+  input:focus { 
+      outline:none; 
+  }
+  
+  label 				 {
+    color:#999; 
+    font-size:18px;
+    font-weight:normal;
+    position:absolute;
+    pointer-events:none;
+    left:5px;
+    top:10px;
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+  }
+  
+  /* active state */
+  input:focus ~ label{
+    top:-20px;
+    font-size:14px;
+    color:#5264AE;
+  }
+  
+  .active{
+      top:-20px;
+      font-size:14px;
+      color:#5264AE;
+  }
+  
+  .results{
+    padding: 10px 10px 5px 30px;
+    margin: 0px 0px 5px 00px;
+    width: 200px;
+    text-align: left;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  
+  .results:hover{
+    background: #cccccc;
+    opacity: 1;
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+  } 

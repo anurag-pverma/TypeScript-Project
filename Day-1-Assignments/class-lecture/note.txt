@@ -1,0 +1,35 @@
+// const a:number = 3;
+// const b:String="5";
+
+// console.log(a+b)
+
+//array of number
+let arr:number[]=[1,2,3,45]
+//string array
+let arrB:String[]=['1','2','3','45']
+//array
+let arrC:Array<String | number>=['1','2','3',45]
+
+
+let arrOfNumBool: Array<number | boolean>=[1,2,4, true]
+let arrBoolean:boolean[] =[true,true, false]
+
+let a: null | number = null
+a=5
+let b: undefined | number;
+b=5
+
+
+
+--Primitive data type
+    -number
+    -string
+    -boolean
+    -undefined
+    -null
+    -array
+    -function
+        -argument
+        -optional argument
+
+    -

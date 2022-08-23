@@ -1,0 +1,13 @@
+{
+  "laptops": [
+    {
+      "modal": "12",
+      "make_year": "2022-05-18",
+      "OS": "oddd",
+      "screen_height": "1000px",
+      "screen_width": "1440px",
+      "price": "1",
+      "id": 1
+    }
+  ]
+}

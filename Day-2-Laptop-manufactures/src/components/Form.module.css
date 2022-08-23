@@ -1,0 +1,30 @@
+.mainForm{
+    display: grid;
+    grid-template-columns: repeat(2,167px);
+    grid-template-rows: repeat(6,33px);
+    justify-content: center;
+}
+
+.mainForm input,select{
+    outline:none;
+    margin-bottom: 10px;
+}
+.mainForm p{
+margin-top: 0px;
+}
+.btn{
+    cursor:pointer;
+}
+.sort_div{
+    margin-left: 50%;
+}
+.border{
+    border: 1px solid #c9c9c9;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.table{
+    width: 50%;
+    margin: auto;
+}
